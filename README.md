@@ -12,18 +12,9 @@ The project contains an interactive Power BI dashboard with three analytical sec
 
 ## Dataset
 
-The project uses a healthcare dataset containing approximately 10,000 patient records with information related to:
+The original project dataset contains approximately 10,000 healthcare records and includes fields covering patient demographics, medical conditions, admission and discharge dates, hospitals, insurance providers, admission types, billing amounts, medications, and test results.
 
-- Patient demographics
-- Medical conditions
-- Admission and discharge dates
-- Hospitals
-- Insurance providers
-- Admission types
-- Billing amounts
-- Treatment-related attributes
-
-The raw dataset is **not included in this repository**.
+For the public GitHub repository, the dataset has been prepared without the `Name`, `Doctor`, and `Room Number` fields. This keeps the portfolio dataset focused on analysis and avoids publishing unnecessary personal-style fields.
 
 ## Tools & Technologies
 
@@ -44,12 +35,12 @@ Key activities included:
 
 - Checking data quality and consistency
 - Validating data types
-- Reviewing duplicate and missing records
+- Reviewing missing and duplicate records
 - Preparing date fields for analysis
 - Creating calculated fields
 - Creating age groups
 - Calculating length of hospital stay
-- Preparing the dataset for Power BI analysis
+- Preparing the dataset for Power BI
 
 ## Dashboard Pages
 
@@ -150,6 +141,9 @@ us-healthcare-analytics-powerbi/
 ├── PowerBI/
 │   └── HealthCare_Project.pbix
 │
+├── Dataset/
+│   └── Healthcare_Data_Public.csv
+│
 └── Screenshots/
     ├── Executive_Overview.png
     ├── Patient_Cost_Optimization.png
@@ -158,4 +152,4 @@ us-healthcare-analytics-powerbi/
 
 ## Skills Demonstrated
 
-Excel | Power BI | Data Cleaning | Data Analysis | Data Visualization | Dashboard Development | KPI Reporting | Exploratory Data Analysis
+Excel | Power BI | DAX | Data Cleaning | Data Analysis | Data Visualization | Dashboard Development | KPI Reporting | Exploratory Data Analysis
