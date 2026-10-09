@@ -23,7 +23,6 @@ The project uses a healthcare dataset containing approximately 10,000 patient re
 - Billing amounts
 - Treatment-related attributes
 
-The raw dataset is **not included in this repository**.
 
 ## Tools & Technologies
 
@@ -139,18 +138,3 @@ These insights can support:
 ### Hospital Resource Management
 
 ![Hospital Resource Management](Screenshots/Hospital_Resource_Management.png)
-
-## Repository Structure
-
-```text
-us-healthcare-analytics-powerbi/
-│
-├── README.md
-│
-├── PowerBI/
-│   └── HealthCare_Project.pbix
-│
-└── Screenshots/
-    ├── Executive_Overview.png
-    ├── Patient_Cost_Optimization.png
-    └── Hospital_Resource_Management.png
